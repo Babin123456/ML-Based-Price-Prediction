@@ -1,12 +1,24 @@
 # 📊 Agricultural Price Prediction Project
 
-A machine learning project to predict agricultural commodity modal prices using **Random Forest Regressor** and **Support Vector Machine (SVM / SVR)** models across diverse seasonal harvest cycles.
+<!-- markdownlint-disable MD013 MD033 -->
+
+![Agricultural Price Prediction Header Wave](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=230&section=header&text=Agricultural%20Price%20Prediction&fontSize=38&fontAlignY=36&fontColor=ffffff&desc=Machine%20Learning%20Modal%20Price%20Forecasting%20Across%20Mandi%20Seasons&descAlignY=58&descAlign=50&descColor=e2e8f0)
+
+[![Typing SVG Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1000&color=10B981&center=true&vCenter=true&width=820&lines=🌱+Multi-Seasonal+Harvest+Analysis+(Winter,+Monsoon,+Summer);🌲+Random+Forest+Regressor+(R²+=+98.93%25)+vs+SVM+(R²+=+91.85%25);📊+Automated+Headless+Analytics+Pipeline+•+22+Visualizations;🎓+Supervised+by+Dr.+Debdutta+Pal+(Department+of+CSE);🏛️+Prepared+for+Springer+Nature+Research+Publication)](https://git.io/typing-svg)
+
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white&style=for-the-badge)](https://github.com/Babin123456/ML-Based-Price-Prediction)
+[![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white&style=for-the-badge)](https://scikit-learn.org)
+[![Random Forest R²](https://img.shields.io/badge/Random%20Forest%20R²-98.93%25-10b981?style=for-the-badge)](results/master_comparison_all.png)
+[![SVM R²](https://img.shields.io/badge/SVR%20R²-91.85%25-06b6d4?style=for-the-badge)](results/master_comparison_all.png)
+[![Springer Nature Track](https://img.shields.io/badge/Publication-Springer%20Nature-f59e0b?style=for-the-badge)](#academic-citation)
+[![License: MIT](https://img.shields.io/badge/License-MIT-8b5cf6?style=for-the-badge)](LICENSE)
+[![Project Views Counter](https://komarev.com/ghpvc/?username=Babin123456-ML-Price-Prediction&color=10b981&style=for-the-badge&label=PROJECT+VIEWS)](https://github.com/Babin123456/ML-Based-Price-Prediction)
 
 > [!NOTE]
 > **Academic Initiative & Research Publication:**  
 > This project was developed as an undergraduate **Mini Project Initiative** under the supervision and guidance of **Dr. Debdutta Pal**, Department of Computer Science & Engineering (CSE). The methodology, seasonal market findings, and machine learning models are currently being modified, extended, and prepared for research publication in a **Springer Nature** journal / proceedings.
 
----
+![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
 ## 📋 Project Overview
 
@@ -26,7 +38,7 @@ The project analyzes agricultural produce across three major harvest seasons:
 - ☀️ **Summer Season (Ritika's Dataset)**: Bhindi (Ladies Finger), Bitter gourd, Brinjal, Mango, Spinach
 - 🇮🇳 **National Master Dataset**: Comprehensive weekly national agricultural commodity records
 
----
+![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
 ## 📁 Project Structure
 
@@ -41,7 +53,7 @@ The project analyzes agricultural produce across three major harvest seasons:
 │   ├── random_forest.py                       # Random Forest Regressor module
 │   ├── svm.py                                 # Support Vector Regressor module
 │   └── utils.py                               # Preprocessing, metrics & plotting utilities
-├── results/                                   # Saved plots & visual analytics
+├── results/                                   # Saved plots & visual analytics (22 figures)
 ├── config.py                                  # Centralized dynamic configuration & paths
 ├── main.py                                    # Pipeline entry point & model comparison
 ├── requirements.txt                           # Project dependencies
@@ -50,7 +62,7 @@ The project analyzes agricultural produce across three major harvest seasons:
 └── README.md                                  # Documentation
 ```
 
----
+![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
 ## 🚀 Getting Started
 
@@ -91,7 +103,7 @@ The project analyzes agricultural produce across three major harvest seasons:
    pip install -r requirements.txt
    ```
 
----
+![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
 ## 📦 Dependencies
 
@@ -101,12 +113,12 @@ The project analyzes agricultural produce across three major harvest seasons:
 - **matplotlib** - Data plotting and dual-layer pie charts
 - **seaborn** - Statistical visualizations and color palette generation
 
----
+![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
 ## 🔧 Usage
 
 > [!TIP]
-> **One-Click Execution:** Simply run `python main.py`. It automatically processes all three seasons (**Winter, Monsoon, and Summer**), evaluates both Random Forest and SVM on each, prints the Master Benchmark Summary, and saves all 22 figures to [`results/`](file:///d:/Vs%20Code/PROJECT/Mini_Project_(Price_Prediction)/results/) in silent headless mode (no pop-up windows).
+> **One-Click Execution:** Simply run `python main.py`. It automatically processes all three seasons (**Winter, Monsoon, and Summer**), evaluates both Random Forest and SVM on each, prints the Master Benchmark Summary, and saves all 22 figures to [`results/`](results/) in silent headless mode (no pop-up windows).
 
 ### Run the complete pipeline
 
@@ -176,7 +188,7 @@ For users who want to isolate a single season or model, optional flags are suppo
 | `python main.py --model svm` | Run **SVM** only across all seasons |
 | `python main.py --show` | Display interactive pop-up windows instead of silent saving |
 
----
+![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
 ## 📊 Features Used
 
@@ -194,9 +206,17 @@ The models predict the target price using the following feature set:
 
 **Target Variable:** `Modal Price` (₹ per Kg)
 
----
+![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
 ## 📈 Model Workflow
+
+```mermaid
+flowchart LR
+    A["📁 Raw Mandi Data<br/>(Winter, Monsoon, Summer)"] --> B["⚙️ Feature Preprocessing<br/>(LabelEncoding, Scaling)"]
+    B --> C["🤖 Dual ML Models<br/>(Random Forest & SVR)"]
+    C --> D["📊 Evaluation Benchmark<br/>(R², MAE, RMSE)"]
+    D --> E["📈 Visual Outputs<br/>(22 Headless Plots)"]
+```
 
 1. **Data Loading & Cleaning**:
    - Automated path resolution via `config.py` (relative paths, no broken absolute paths).
@@ -213,7 +233,7 @@ The models predict the target price using the following feature set:
    - Evaluation metrics: $R^2$ Score, MAE, and RMSE.
    - Dual-layer visualization, trend comparison, and multi-dataset master benchmark.
 
----
+![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
 ## 🏆 Model Performance Comparison
 
@@ -230,25 +250,41 @@ Evaluated on the test split (80/20 train-test ratio) across each seasonal commod
 
 > **Key Finding:** Random Forest consistently outperforms SVM across all three seasons ($R^2 \approx 98\%\text{--}99\%$), demonstrating exceptional capability in capturing non-linear relationships and supply-demand interactions across agricultural mandi markets.
 
----
+![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
-## 📊 Output Visualizations
+## 📊 Output Visualizations Gallery
 
-All visualization figures are generated and exported directly to the `results/` folder:
+All 22 visualization figures are automatically generated in silent headless mode and saved to the [`results/`](results/) folder:
 
-1. **Master Multi-Dataset Benchmark** (`master_comparison_all.png`):
-   - 3-panel comparative performance plot comparing $R^2$, MAE, and RMSE side-by-side across all team members.
-2. **Model Comparison Chart** (`model_comparison_<dataset>.png`):
-   - Individual benchmark plot comparing Random Forest vs SVM for a specific dataset.
-3. **Line Graph** (`rf_line_<dataset>.png`, `svm_line_<dataset>.png`):
-   - Direct commodity-level trend comparison of Actual vs Predicted prices with shaded residual gaps.
-4. **Grouped Bar Graph** (`rf_bar_<dataset>.png`, `svm_bar_<dataset>.png`):
-   - Side-by-side price bars with angled currency annotations (`₹`) preventing label collisions.
-5. **Dual-Layer Nested Donut Chart** (`rf_pie_<dataset>.png`, `svm_pie_<dataset>.png`):
-   - Outer donut showing Actual modal prices per commodity.
-   - Inner donut showing Model-predicted prices, complemented by a clean breakdown table.
+### 🌟 Master Multi-Dataset Benchmark
 
----
+The 3-panel comparative performance plot comparing $R^2$, MAE, and RMSE side-by-side across all seasonal datasets:
+
+![Master Multi-Dataset Benchmark Comparison](results/master_comparison_all.png)
+
+### 🔍 Seasonal Model Comparison Charts
+
+| ❄️ Winter Season (Babin) | 🌧️ Monsoon Season (Liza) | ☀️ Summer Season (Ritika) |
+| :---: | :---: | :---: |
+| ![Winter Model Comparison](results/model_comparison_babin.png) | ![Monsoon Model Comparison](results/model_comparison_liza.png) | ![Summer Model Comparison](results/model_comparison_ritika.png) |
+
+### 📈 Actual vs Predicted Trend Lines & Residuals
+
+| Season | Random Forest Trend Line | Support Vector Machine Trend Line |
+| :---: | :---: | :---: |
+| **Winter (Babin)** | ![RF Line Winter](results/rf_line_babin.png) | ![SVM Line Winter](results/svm_line_babin.png) |
+| **Monsoon (Liza)** | ![RF Line Monsoon](results/rf_line_liza.png) | ![SVM Line Monsoon](results/svm_line_liza.png) |
+| **Summer (Ritika)** | ![RF Line Summer](results/rf_line_ritika.png) | ![SVM Line Summer](results/svm_line_ritika.png) |
+
+### 🍩 Dual-Layer Nested Donut & Grouped Bar Charts
+
+| Season | Dual-Layer Nested Donut (Actual vs Pred) | Grouped Bar Chart (With Currency ₹) |
+| :---: | :---: | :---: |
+| **Winter (Babin)** | ![RF Pie Winter](results/rf_pie_babin.png) | ![RF Bar Winter](results/rf_bar_babin.png) |
+| **Monsoon (Liza)** | ![RF Pie Monsoon](results/rf_pie_liza.png) | ![RF Bar Monsoon](results/rf_bar_liza.png) |
+| **Summer (Ritika)** | ![RF Pie Summer](results/rf_pie_ritika.png) | ![RF Bar Summer](results/rf_bar_ritika.png) |
+
+![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
 ## 👥 Team & Academic Supervision
 
@@ -257,7 +293,7 @@ All visualization figures are generated and exported directly to the `results/` 
 - **Liza** - Model evaluation, dataset processing & seasonal trend analysis
 - **Ritika** - Support Vector Machine implementation & feature engineering
 
----
+![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
 ## 🐛 Troubleshooting
 
@@ -272,12 +308,16 @@ pip install -r requirements.txt
 - Datasets are stored in the `data/` directory.
 - `config.py` automatically resolves absolute paths relative to the project root, so the project works out of the box regardless of directory location.
 
----
+![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
+
+<a id="academic-citation"></a>
 
 ## 📄 License & Academic Citation
 
-This project is licensed under the **MIT License** for academic, study-oriented, and educational purposes. See the [LICENSE](file:///d:/Vs%20Code/PROJECT/Mini_Project_(Price_Prediction)/LICENSE) file for complete terms.
+This project is licensed under the **MIT License** for academic, study-oriented, and educational purposes. See the [LICENSE](LICENSE) file for complete terms.
 
 > [!NOTE]
 > **Citation & Attribution:**  
 > This study originated as an undergraduate **Mini Project Initiative** under the supervision of **Dr. Debdutta Pal**, Department of Computer Science & Engineering (CSE), and is currently being adapted for research publication in **Springer Nature**. If you utilize or reference this codebase or methodology in your academic work, please provide appropriate attribution.
+
+![Footer Wave Animation](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=120&section=footer)

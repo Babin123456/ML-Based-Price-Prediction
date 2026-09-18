@@ -57,7 +57,7 @@ The project analyzes agricultural produce across three major harvest seasons:
 ├── config.py                                  # Centralized dynamic configuration & paths
 ├── main.py                                    # Pipeline entry point & model comparison
 ├── requirements.txt                           # Project dependencies
-├── LICENSE                                    # Academic & Research Open-Source License
+├── LICENSE                                    # MIT Open-Source License
 ├── .gitignore                                 # Git ignore rules
 └── README.md                                  # Documentation
 ```
@@ -136,40 +136,28 @@ python main.py
 • Output Mode:      Headless saving (all figures saved to 'results/', no popup windows)
 
 ======================================================================
-📂 Processing: Babin - Winter Season (Winter Produce (Apple, Beetroot, Cabbage, Carrot, Cauliflower, Orange))
+📂 Processing: Babin - Winter Season
 📁 Source File: data\Book1(Babin).csv
 ======================================================================
-  🌲 Random Forest Evaluation:  R² = 0.9799 | MAE = ₹151.88 | RMSE = ₹528.73
-  🎯 SVM Evaluation:            R² = 0.8062 | MAE = ₹631.69 | RMSE = ₹1640.37
+  🌲 Random Forest Evaluation:  Complete
+  🎯 SVM Evaluation:            Complete
   💾 Comparison plot saved to: results\model_comparison_babin.png
 
 ======================================================================
-📂 Processing: Liza - Monsoon Season (Monsoon / Fruit Produce (Banana, Guava, Papaya, Peach, Plum))
+📂 Processing: Liza - Monsoon Season
 📁 Source File: data\Book1(Liza).csv
 ======================================================================
-  🌲 Random Forest Evaluation:  R² = 0.9855 | MAE = ₹74.85  | RMSE = ₹195.11
-  🎯 SVM Evaluation:            R² = 0.8295 | MAE = ₹299.14 | RMSE = ₹668.26
+  🌲 Random Forest Evaluation:  Complete
+  🎯 SVM Evaluation:            Complete
   💾 Comparison plot saved to: results\model_comparison_liza.png
 
 ======================================================================
-📂 Processing: Ritika - Summer Season (Summer Produce (Bhindi, Bitter Gourd, Brinjal, Mango, Spinach))
+📂 Processing: Ritika - Summer Season
 📁 Source File: data\Book1(Ritika).csv
 ======================================================================
-  🌲 Random Forest Evaluation:  R² = 0.9893 | MAE = ₹64.04  | RMSE = ₹148.67
-  🎯 SVM Evaluation:            R² = 0.9185 | MAE = ₹165.56 | RMSE = ₹409.86
+  🌲 Random Forest Evaluation:  Complete
+  🎯 SVM Evaluation:            Complete
   💾 Comparison plot saved to: results\model_comparison_ritika.png
-
-==========================================================================================
-🏆 MASTER MULTI-SEASON BENCHMARK SUMMARY (WINTER, MONSOON & SUMMER)
-==========================================================================================
-      Dataset / Season                        Model  R² Score    MAE (₹)    RMSE (₹)
- Babin (Winter Season)                Random Forest  0.979866 151.882030  528.731916
- Babin (Winter Season) Support Vector Machine (SVM)  0.806202 631.686661 1640.373005
- Liza (Monsoon Season)                Random Forest  0.985463  74.847274  195.114103
- Liza (Monsoon Season) Support Vector Machine (SVM)  0.829474 299.139905  668.262041
-Ritika (Summer Season)                Random Forest  0.989270  64.036688  148.673675
-Ritika (Summer Season) Support Vector Machine (SVM)  0.918456 165.555323  409.861520
-==========================================================================================
 
 💾 Master multi-dataset comparison plot saved to: results\master_comparison_all.png
 ✅ Execution completed successfully! All charts are saved under the 'results/' folder.
@@ -276,13 +264,21 @@ The 3-panel comparative performance plot comparing $R^2$, MAE, and RMSE side-by-
 | **Monsoon (Liza)** | ![RF Line Monsoon](results/rf_line_liza.png) | ![SVM Line Monsoon](results/svm_line_liza.png) |
 | **Summer (Ritika)** | ![RF Line Summer](results/rf_line_ritika.png) | ![SVM Line Summer](results/svm_line_ritika.png) |
 
-### 🍩 Dual-Layer Nested Donut & Grouped Bar Charts
+### 🍩 Dual-Layer Nested Donut Charts (Price Distribution)
 
-| Season | Dual-Layer Nested Donut (Actual vs Pred) | Grouped Bar Chart (With Currency ₹) |
+| Season | Random Forest Dual Donut | Support Vector Machine Dual Donut |
 | :---: | :---: | :---: |
-| **Winter (Babin)** | ![RF Pie Winter](results/rf_pie_babin.png) | ![RF Bar Winter](results/rf_bar_babin.png) |
-| **Monsoon (Liza)** | ![RF Pie Monsoon](results/rf_pie_liza.png) | ![RF Bar Monsoon](results/rf_bar_liza.png) |
-| **Summer (Ritika)** | ![RF Pie Summer](results/rf_pie_ritika.png) | ![RF Bar Summer](results/rf_bar_ritika.png) |
+| **Winter (Babin)** | ![RF Pie Winter](results/rf_pie_babin.png) | ![SVM Pie Winter](results/svm_pie_babin.png) |
+| **Monsoon (Liza)** | ![RF Pie Monsoon](results/rf_pie_liza.png) | ![SVM Pie Monsoon](results/svm_pie_liza.png) |
+| **Summer (Ritika)** | ![RF Pie Summer](results/rf_pie_ritika.png) | ![SVM Pie Summer](results/svm_pie_ritika.png) |
+
+### 📊 Commodity-Wise Price Bar Comparisons
+
+| Season | Random Forest Grouped Bar | Support Vector Machine Grouped Bar |
+| :---: | :---: | :---: |
+| **Winter (Babin)** | ![RF Bar Winter](results/rf_bar_babin.png) | ![SVM Bar Winter](results/svm_bar_babin.png) |
+| **Monsoon (Liza)** | ![RF Bar Monsoon](results/rf_bar_liza.png) | ![SVM Bar Monsoon](results/svm_bar_liza.png) |
+| **Summer (Ritika)** | ![RF Bar Summer](results/rf_bar_ritika.png) | ![SVM Bar Summer](results/svm_bar_ritika.png) |
 
 ![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
@@ -314,10 +310,20 @@ pip install -r requirements.txt
 
 ## 📄 License & Academic Citation
 
-This project is licensed under the **MIT License** for academic, study-oriented, and educational purposes. See the [LICENSE](LICENSE) file for complete terms.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for complete terms.
 
-> [!NOTE]
-> **Citation & Attribution:**  
-> This study originated as an undergraduate **Mini Project Initiative** under the supervision of **Dr. Debdutta Pal**, Department of Computer Science & Engineering (CSE), and is currently being adapted for research publication in **Springer Nature**. If you utilize or reference this codebase or methodology in your academic work, please provide appropriate attribution.
+### Academic Citation
+
+If you utilize or reference this codebase, methodology, or seasonal findings in your academic work, please cite:
+
+```bibtex
+@misc{agricultural_price_prediction_2026,
+  author       = {Babin and Liza and Ritika},
+  title        = {Agricultural Commodity Price Prediction across Multi-Seasonal Mandi Markets},
+  year         = {2026},
+  howpublished = {Undergraduate Research Project, Department of Computer Science \& Engineering},
+  note         = {Supervised by Dr. Debdutta Pal. Prepared for Springer Nature publication.}
+}
+```
 
 ![Footer Wave Animation](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=120&section=footer)

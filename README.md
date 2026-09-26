@@ -1,22 +1,57 @@
-# 📊 Agricultural Price Prediction Project
+# 🌾 ML-Based Price Prediction for Agri-Horticultural Commodities
 
 <!-- markdownlint-disable MD013 MD033 -->
 
-![Agricultural Price Prediction Header Wave](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=230&section=header&text=Agricultural%20Price%20Prediction&fontSize=38&fontAlignY=36&fontColor=ffffff&desc=Machine%20Learning%20Modal%20Price%20Forecasting%20Across%20Mandi%20Seasons&descAlignY=58&descAlign=50&descColor=e2e8f0)
+![Agricultural Price Prediction Header Wave](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=230&section=header&text=Agri-Horticultural%20Price%20Prediction&fontSize=34&fontAlignY=36&fontColor=ffffff&desc=Official%20Codebase%20•%20Springer%20Nature%20(SSWC)&descAlignY=58&descAlign=50&descColor=e2e8f0)
 
-[![Typing SVG Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1000&color=10B981&center=true&vCenter=true&width=820&lines=🌱+Multi-Seasonal+Harvest+Analysis+(Winter,+Monsoon,+Summer);🌲+Random+Forest+Regressor+(R²+=+98.93%25)+vs+SVM+(R²+=+91.85%25);📊+Automated+Headless+Analytics+Pipeline+•+22+Visualizations;🎓+Supervised+by+Dr.+Debdutta+Pal+(Department+of+CSE);🏛️+Prepared+for+Springer+Nature+Research+Publication)](https://git.io/typing-svg)
+[![Typing SVG Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1000&color=10B981&center=true&vCenter=true&width=820&lines=🌱+Multi-Seasonal+Price+Forecasting+(Winter,+Rainy,+Summer);🌲+Random+Forest+Regressor+(R²+=+98.93%25)+vs+SVM+(R²+=+91.85%25);🏛️+Published+in+Springer+Nature+(Smart+Systems+&+Wireless+Comm.);🎓+Department+of+CSE,+Adamas+University;📄+DOI:+10.1007%2F978-3-032-21164-4_30)](https://doi.org/10.1007/978-3-032-21164-4_30)
 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white&style=for-the-badge)](https://github.com/Babin123456/ML-Based-Price-Prediction)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white&style=for-the-badge)](https://scikit-learn.org)
-[![Random Forest R²](https://img.shields.io/badge/Random%20Forest%20R²-98.93%25-10b981?style=for-the-badge)](results/master_comparison_all.png)
-[![SVM R²](https://img.shields.io/badge/SVR%20R²-91.85%25-06b6d4?style=for-the-badge)](results/master_comparison_all.png)
-[![Springer Nature Track](https://img.shields.io/badge/Publication-Springer%20Nature-f59e0b?style=for-the-badge)](#academic-citation)
+[![Random Forest R²](https://img.shields.io/badge/Random%20Forest%20R²-98.93%25-10b981?style=for-the-badge)](./results/master_comparison_all.png)
+[![SVM R²](https://img.shields.io/badge/SVR%20R²-91.85%25-06b6d4?style=for-the-badge)](./results/master_comparison_all.png)
+[![Springer Nature](https://img.shields.io/badge/Springer%20Nature-Chapter%2030-0070a8?logo=springer&logoColor=white&style=for-the-badge)](https://link.springer.com/chapter/10.1007/978-3-032-21164-4_30)
+[![EurekaMag](https://img.shields.io/badge/EurekaMag-107899461-3e7619?style=for-the-badge)](https://eurekamag.com/research/107/899/107899461.php)
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--032--21164--4__30-10b981?style=for-the-badge)](https://doi.org/10.1007/978-3-032-21164-4_30)
 [![License: MIT](https://img.shields.io/badge/License-MIT-8b5cf6?style=for-the-badge)](LICENSE)
 [![Project Views Counter](https://komarev.com/ghpvc/?username=Babin123456-ML-Price-Prediction&color=10b981&style=for-the-badge&label=PROJECT+VIEWS)](https://github.com/Babin123456/ML-Based-Price-Prediction)
 
-> [!NOTE]
-> **Academic Initiative & Research Publication:**  
-> This project was developed as an undergraduate **Mini Project Initiative** under the supervision and guidance of **Dr. Debdutta Pal**, Department of Computer Science & Engineering (CSE). The methodology, seasonal market findings, and machine learning models are currently being modified, extended, and prepared for research publication in a **Springer Nature** journal / proceedings.
+> [!IMPORTANT]
+> **Official Research Publication — Springer Nature:**  
+> This repository hosts the official implementation, multi-seasonal datasets, and visualization pipelines for the published research paper:  
+> **"ML-Based Price Prediction for Agri-Horticultural Commodities"**  
+> Published in: *Smart Systems and Wireless Communication*, **Smart Innovation, Systems and Technologies (SIST, Vol. 484)**, **Springer Nature Switzerland / Springer, Cham**, pp. 378–389, 2026.  
+>
+> 🔗 **Official Springer Link:** [link.springer.com/chapter/10.1007/978-3-032-21164-4_30](https://link.springer.com/chapter/10.1007/978-3-032-21164-4_30)  
+> 🔗 **Official Google Share Link:** [share.google/D4xw5wSU0QzhLgppF](https://share.google/D4xw5wSU0QzhLgppF)  
+> 🌐 **EurekaMag Academic Record:** [eurekamag.com/research/107/899/107899461.php](https://eurekamag.com/research/107/899/107899461.php) (Accession: `107899461`)  
+> 📌 **Digital Object Identifier (DOI):** [`10.1007/978-3-032-21164-4_30`](https://doi.org/10.1007/978-3-032-21164-4_30)
+
+![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
+
+## 📚 Research Paper & Publication Summary
+
+| Parameter | Publication Metadata |
+| :--- | :--- |
+| **Paper Title** | **ML-Based Price Prediction for Agri-Horticultural Commodities** |
+| **Authors** | **Dr. Debdutta Pal**, **Babin Bid**, **Ritika Pramanick**, **Liza Ghosh** |
+| **Affiliation** | Department of Computer Science & Engineering, Adamas University, Kolkata, India |
+| **Proceedings Title** | *Smart Systems and Wireless Communication* |
+| **Book Series** | **Smart Innovation, Systems and Technologies (SIST)**, Volume 484 |
+| **Conference** | International Conference on Smart Systems and Wireless Communication (SSWC) |
+| **Publisher** | **Springer Nature Switzerland / Springer, Cham** |
+| **Online Publication Date** | May 01, 2026 (Online First: March 2026) |
+| **Page Numbers** | pp. 378–389 |
+| **Print ISBN / Online ISBN** | `978-3-032-21164-4` / `978-3-032-21163-7` |
+| **Series ISSN** | `2190-3018` (Print) / `2190-3026` (Electronic) |
+| **Digital Object Identifier** | [`10.1007/978-3-032-21164-4_30`](https://doi.org/10.1007/978-3-032-21164-4_30) |
+| **Indexing & Repositories** | [Springer Nature Link](https://link.springer.com/chapter/10.1007/978-3-032-21164-4_30) • [EurekaMag (ID: 107899461)](https://eurekamag.com/research/107/899/107899461.php) • [Google Share Link](https://share.google/D4xw5wSU0QzhLgppF) |
+
+### 📖 Paper Abstract
+
+> *"The agricultural sector is currently facing significant hardships due to the uneven pricing of agri-horticultural commodities such as pulses and vegetables. The objective of our research is to develop machine learning-based models for predicting the prices of vegetables and fruits across different seasons. In our study, we focused on three major Indian seasons: winter, rainy, and summer. These crops are typically seasonal, and our research scope is confined to such crops. Using historical price data, weather conditions, and socioeconomic features, the models provide precise and timely predictions to support crop planning, market interventions, and price stabilization efforts. We employ Support Vector Machine (SVM) and Random Forest (RF) to visualize seasonal price trends and evaluate their effectiveness. Line graphs, bar graphs, and pie charts are utilized to highlight essential data features. These visualizations help stakeholders understand market patterns and mitigate risks associated with price fluctuations. Ultimately, the study emphasizes the role of ML-driven predictive analytics in empowering farmers and reducing price uncertainties for consumers."*
+
+**Keywords:** `Agri-horticultural Commodities`, `Support Vector Machine`, `Random Forest`, `ML-driven Predictive Analytics`, `Socioeconomic`
 
 ![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
@@ -248,46 +283,46 @@ All 22 visualization figures are automatically generated in silent headless mode
 
 The 3-panel comparative performance plot comparing $R^2$, MAE, and RMSE side-by-side across all seasonal datasets:
 
-![Master Multi-Dataset Benchmark Comparison](results/master_comparison_all.png)
+![Master Multi-Dataset Benchmark Comparison](./results/master_comparison_all.png)
 
 ### 🔍 Seasonal Model Comparison Charts
 
 | ❄️ Winter Season (Babin) | 🌧️ Monsoon Season (Liza) | ☀️ Summer Season (Ritika) |
 | :---: | :---: | :---: |
-| ![Winter Model Comparison](results/model_comparison_babin.png) | ![Monsoon Model Comparison](results/model_comparison_liza.png) | ![Summer Model Comparison](results/model_comparison_ritika.png) |
+| ![Winter Model Comparison](./results/model_comparison_babin.png) | ![Monsoon Model Comparison](./results/model_comparison_liza.png) | ![Summer Model Comparison](./results/model_comparison_ritika.png) |
 
 ### 📈 Actual vs Predicted Trend Lines & Residuals
 
 | Season | Random Forest Trend Line | Support Vector Machine Trend Line |
 | :---: | :---: | :---: |
-| **Winter (Babin)** | ![RF Line Winter](results/rf_line_babin.png) | ![SVM Line Winter](results/svm_line_babin.png) |
-| **Monsoon (Liza)** | ![RF Line Monsoon](results/rf_line_liza.png) | ![SVM Line Monsoon](results/svm_line_liza.png) |
-| **Summer (Ritika)** | ![RF Line Summer](results/rf_line_ritika.png) | ![SVM Line Summer](results/svm_line_ritika.png) |
+| **Winter (Babin)** | ![RF Line Winter](./results/rf_line_babin.png) | ![SVM Line Winter](./results/svm_line_babin.png) |
+| **Monsoon (Liza)** | ![RF Line Monsoon](./results/rf_line_liza.png) | ![SVM Line Monsoon](./results/svm_line_liza.png) |
+| **Summer (Ritika)** | ![RF Line Summer](./results/rf_line_ritika.png) | ![SVM Line Summer](./results/svm_line_ritika.png) |
 
 ### 🍩 Dual-Layer Nested Donut Charts (Price Distribution)
 
 | Season | Random Forest Dual Donut | Support Vector Machine Dual Donut |
 | :---: | :---: | :---: |
-| **Winter (Babin)** | ![RF Pie Winter](results/rf_pie_babin.png) | ![SVM Pie Winter](results/svm_pie_babin.png) |
-| **Monsoon (Liza)** | ![RF Pie Monsoon](results/rf_pie_liza.png) | ![SVM Pie Monsoon](results/svm_pie_liza.png) |
-| **Summer (Ritika)** | ![RF Pie Summer](results/rf_pie_ritika.png) | ![SVM Pie Summer](results/svm_pie_ritika.png) |
+| **Winter (Babin)** | ![RF Pie Winter](./results/rf_pie_babin.png) | ![SVM Pie Winter](./results/svm_pie_babin.png) |
+| **Monsoon (Liza)** | ![RF Pie Monsoon](./results/rf_pie_liza.png) | ![SVM Pie Monsoon](./results/svm_pie_liza.png) |
+| **Summer (Ritika)** | ![RF Pie Summer](./results/rf_pie_ritika.png) | ![SVM Pie Summer](./results/svm_pie_ritika.png) |
 
 ### 📊 Commodity-Wise Price Bar Comparisons
 
 | Season | Random Forest Grouped Bar | Support Vector Machine Grouped Bar |
 | :---: | :---: | :---: |
-| **Winter (Babin)** | ![RF Bar Winter](results/rf_bar_babin.png) | ![SVM Bar Winter](results/svm_bar_babin.png) |
-| **Monsoon (Liza)** | ![RF Bar Monsoon](results/rf_bar_liza.png) | ![SVM Bar Monsoon](results/svm_bar_liza.png) |
-| **Summer (Ritika)** | ![RF Bar Summer](results/rf_bar_ritika.png) | ![SVM Bar Summer](results/svm_bar_ritika.png) |
+| **Winter (Babin)** | ![RF Bar Winter](./results/rf_bar_babin.png) | ![SVM Bar Winter](./results/svm_bar_babin.png) |
+| **Monsoon (Liza)** | ![RF Bar Monsoon](./results/rf_bar_liza.png) | ![SVM Bar Monsoon](./results/svm_bar_liza.png) |
+| **Summer (Ritika)** | ![RF Bar Summer](./results/rf_bar_ritika.png) | ![SVM Bar Summer](./results/svm_bar_ritika.png) |
 
 ![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
-## 👥 Team & Academic Supervision
+## 👥 Authors & Academic Supervision
 
-- **Dr. Debdutta Pal** - Project Supervisor & Research Advisor, Department of Computer Science & Engineering (CSE)
-- **Babin** - Random Forest implementation, pipeline integration, dynamic configuration & visualization
-- **Liza** - Model evaluation, dataset processing & seasonal trend analysis
-- **Ritika** - Support Vector Machine implementation & feature engineering
+- **Dr. Debdutta Pal** - Project Supervisor & Corresponding Author, Department of Computer Science & Engineering (CSE), Adamas University, Kolkata, India (`pal.debdutta@gmail.com`)
+- **Babin Bid** - Co-Author & Lead Pipeline Developer, Department of Computer Science & Engineering (CSE), Adamas University, Kolkata, India
+- **Liza Ghosh** - Co-Author & Research Analyst, Department of Computer Science & Engineering (CSE), Adamas University, Kolkata, India
+- **Ritika Pramanick** - Co-Author & Machine Learning Developer, Department of Computer Science & Engineering (CSE), Adamas University, Kolkata, India
 
 ![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
@@ -304,6 +339,10 @@ pip install -r requirements.txt
 - Datasets are stored in the `data/` directory.
 - `config.py` automatically resolves absolute paths relative to the project root, so the project works out of the box regardless of directory location.
 
+**Images Not Displaying on GitHub:**
+
+- If visual plots appear as broken images on GitHub, ensure that the `results/` directory is tracked by git and pushed to the remote repository (`git add results/ && git commit -m "Add visualization charts" && git push`).
+
 ![Wave Divider](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=80&section=header)
 
 <a id="academic-citation"></a>
@@ -314,15 +353,22 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ### Academic Citation
 
-If you utilize or reference this codebase, methodology, or seasonal findings in your academic work, please cite:
+If you utilize or reference this codebase, methodology, or seasonal findings in your academic work, please cite the published research paper:
 
 ```bibtex
-@misc{agricultural_price_prediction_2026,
-  author       = {Babin and Liza and Ritika},
-  title        = {Agricultural Commodity Price Prediction across Multi-Seasonal Mandi Markets},
-  year         = {2026},
-  howpublished = {Undergraduate Research Project, Department of Computer Science \& Engineering},
-  note         = {Supervised by Dr. Debdutta Pal. Prepared for Springer Nature publication.}
+@incollection{pal2026ml,
+  author    = {Pal, Debdutta and Bid, Babin and Pramanick, Ritika and Ghosh, Liza},
+  title     = {ML-Based Price Prediction for Agri-Horticultural Commodities},
+  booktitle = {Smart Systems and Wireless Communication},
+  series    = {Smart Innovation, Systems and Technologies},
+  volume    = {484},
+  pages     = {378--389},
+  year      = {2026},
+  publisher = {Springer, Cham},
+  doi       = {10.1007/978-3-032-21164-4_30},
+  url       = {https://link.springer.com/chapter/10.1007/978-3-032-21164-4_30},
+  isbn      = {978-3-032-21164-4},
+  issn      = {2190-3018}
 }
 ```
 

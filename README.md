@@ -8,6 +8,8 @@
 
 <!-- markdownlint-disable MD013 MD033 -->
 
+<div align="center">
+
 ![Agricultural Price Prediction Header Wave](https://capsule-render.vercel.app/api?type=waving&color=0:10b981,50:06b6d4,100:3b82f6&height=230&section=header&text=Agri-Horticultural%20Price%20Prediction&fontSize=34&fontAlignY=36&fontColor=ffffff&desc=Official%20Codebase%20•%20Springer%20Nature%20(SSWC)&descAlignY=58&descAlign=50&descColor=e2e8f0)
 
 [![Typing SVG Animation](https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1000&color=10B981&center=true&vCenter=true&width=820&lines=🌱+Multi-Seasonal+Price+Forecasting+(Winter,+Rainy,+Summer);🌲+Random+Forest+Regressor+(R²+=+98.93%25)+vs+SVM+(R²+=+91.85%25);🏛️+Published+in+Springer+Nature+(Smart+Systems+&+Wireless+Comm.);🎓+Department+of+CSE,+Adamas+University;📄+DOI:+10.1007%2F978-3-032-21164-4_30)](https://doi.org/10.1007/978-3-032-21164-4_30)
@@ -21,6 +23,8 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--032--21164--4__30-10b981?style=for-the-badge)](https://doi.org/10.1007/978-3-032-21164-4_30)
 [![License: MIT](https://img.shields.io/badge/License-MIT-8b5cf6?style=for-the-badge)](LICENSE)
 [![Project Views Counter](https://komarev.com/ghpvc/?username=Babin123456-ML-Price-Prediction&color=10b981&style=for-the-badge&label=PROJECT+VIEWS)](https://github.com/Babin123456/ML-Based-Price-Prediction)
+
+</div>
 
 > [!IMPORTANT]
 > **Official Research Publication — Springer Nature:**  

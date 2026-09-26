@@ -4,6 +4,3 @@
 # Python Cache
 __pycache__/
 *.pyc
-
-# Generated Outputs
-results/

@@ -1,4 +1,10 @@
-# 🌾 ML-Based Price Prediction for Agri-Horticultural Commodities
+<!-- markdownlint-disable MD041 MD033 -->
+
+<div align="center">
+
+# 🌾 ML-Based Price Prediction for Agri-Horticultural Commodities 🌾
+
+</div>
 
 <!-- markdownlint-disable MD013 MD033 -->
 
